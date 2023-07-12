@@ -67,3 +67,24 @@ nav ul li a {
 a:hover {
     background-color: rgb(212, 132, 27);
 }
+
+
+input:invalid :required{
+    border: 2px solid #5452ad;
+}
+input:invalid:required {
+    background-image: linear-gradient(to right, rgb(150, 174, 211), rgb(200, 205, 209));
+}
+input:valid {
+    background-color: #d9dfe7;
+    border: 1px;
+    outline: 2px solid #d9dfe7;
+    border-radius: 5px;
+}
+form input:focus {
+    outline: none;
+    color:#05112b;
+}
+
+
+
