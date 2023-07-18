@@ -32,10 +32,11 @@ h3 {
 }
 h4 {
     font-size: 14px;
-    color: #f5f6f8;
+    color: #05183d;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    text-align: left;
 }
+
 p { 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
@@ -43,10 +44,12 @@ p {
     margin-left: 1px;
 }
 
-p.logo {
-    font-size: 20px;
+*nav bar starts here*
+
+.logo p {
+    font-size: 30px;
     text-align: left;
-    color:#4575c9;
+    font-weight: 30%;
 }
 nav {
     width: 100%;
@@ -97,14 +100,94 @@ ul li:hover ul.dropdown {
 
 ****dropdown nav ends here***
 
-.libraries {
-    max-width: 100%;
-    max-height: fit-content;
+.photograph {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right:10%;
+    padding-left: 10%;
+    border-top: 50px solid #665544;
+    border-bottom: 50px solid #665544;
 }
-.libraries a {
+.background {
+    flex-wrap: left;
+}
+.container {
+    display: left;
+    justify-content: center;
+}
+.card {
+    background-color: #0d2549;
+    width: 400px;
+    height: 300px;
+    margin: 50px;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-left: 2.5%;
+}  
+.card-img {
+    background-color: #91a6cf;
+    height: 225px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-color: #05183d;
+    border-radius: 2%;
+    border-left: #00040a;
+}
+.card p {
+    font-size: 12px;
     text-align: left;
-    color:#062052;
-    text-decoration: underline;
+    color:#fdfdfd;
+}
+.card h4 {
+    font-size: 14px;
+    font-weight: 20%;
+    color: #e6dbdb;
+    text-align: left;  
+    padding-bottom: 2%; 
+}
+
+
+***PRACTICELIBRARIES*
+.container1 {
+    display: left;
+    gap: 10px;
+}
+.card1 {
+    background-color: #0d2549;
+    width: 400px;
+    height: 300px;
+    margin: 50px;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-left: 2.5%;
+}  
+.card1-img {
+    background-color: #91a6cf;
+    height: 225px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-color: #05183d;
+    border-radius: 2%;
+    border-left: #00040a;
+}
+.card1 p {
+    font-size: 12px;
+    text-align: left;
+    color:#fdfdfd;
+}
+.card1 h4 {
+    font-size: 14px;
+    font-weight: 20%;
+    color: #e6dbdb;
+    text-align: left;  
+    padding-bottom: 2%; 
+}
+
+***END PRACTICELIBRARIES*
+
+
+.maps {
+    vertical-align: top;
 }
 .wrapper {
     display:grid;
@@ -112,31 +195,20 @@ ul li:hover ul.dropdown {
     grid-template-rows: 25px 5px;
     gap: 10px;
 }
-p.welcome {
-    font-family: Arial, Helvetica, sans-serif;
-    min-width: 50%;
-    max-width: 50%;
-    color:#062052;
-    background-color: whitesmoke;
-    margin: 2%;
-    width: 15%;
-    padding-left: 0.25%;
-    border-top: 1px solid #665544;
-    border-bottom: 1px solid #665544;
-}
 .news1 {
     float:right;
     background-color: #1E3660;
-    width: 400px;
-    height: 400px;
-    margin: 1%;
+    width: 450px;
+    height: 750px;
+    margin: 75px;
     border:#efefef;
     padding: 1%;
+    text-align: left;
 }
-.news1  h3 {
+.news1  h2 {
     font-family: Arial, Helvetica, sans-serif;
     color:#f0f2f7; 
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
 }
 .news1 a {
@@ -147,27 +219,24 @@ p.welcome {
     text-decoration: none;
 }
 blockquote {
+    
     float: left;
     background-color: #062052;
-    max-width: 350px;
+    max-width: 375px;
     min-width: 0px;
     font-size: 100%;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: 12px;
+    font-family: sans-serif;
     color: #fdfeff;
     border-top: 10px solid #f0e9e9;     
     border-bottom: 10px solid #f0e9e9;
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 5px;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 0px;
     margin-left: 10px;
-}
-.quicktips {
-    float: center;
-    display: inline;
-    padding-top: 0%;
+   
 }
 .box1 {
     display: inline;
@@ -176,8 +245,8 @@ blockquote {
 }
 .box2 {
     display: inline;
-    padding: 1%;
-    padding-top: 0%;
+    padding: 5%;
+    padding-top: 15%;
 }
 .box3 {
     display: inline;
@@ -281,7 +350,7 @@ textarea {
     height: 150px;
     resize: vertical;
 }
-button.dei-btn {
+.button  {
     padding: 15px;
     background:#0e3379;
     color: #fcfcfc;
@@ -320,4 +389,7 @@ background:#4488cc;
     color:#C62828;
     margin: -.5em 0 1.5em;
 
+}
+.quicktips a {
+    color: #0e3379;
 }
