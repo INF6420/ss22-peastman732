@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <meta name="Description" content="INF6420 Introduction to Web Development">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Women's Collections-Contact Us - Eastman Talik</title>
+    <title>Digital Womens Collections-Contact Us - Eastman Talik</title>
     <link rel="stylesheet" href="style.css">
     <style type="text/css"></style>
     <script src="script.js" defer></script>
 </head>
 <body>
     <nav>
-        <p class="logo"><b>* pj portfolio *</b></p>
+        <p class="logo"><b>|pj|</b></p>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="#">About Us</a>
+                <ul class="dropdown">
+                <li><a href="welcome.html">Welcome</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="sitereferences.html">Site References</a></li></ul>
                 <li><a href="#">Portfolio</a>
                 <ul class="dropdown">
                 <li><a href="libraries.html">Digital Libraries</a></li>
-                <li><a href="learnmore.html">Learn More</a></li>  
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="sitereferences.html">Site References</a></li>
-                </ul></li>
-                <li><a href="help.html">Help</a></li>
-        </ul>
+                <li><a href="learnmore.html">Learn More</a></li>
+                <li><a href="about.html">Bio</a></li></ul> 
+            </li></li></ul>
         </nav>
-        <main>
-            <div class="wrapper">
-                <h3><b>Contact Us</b></h3>
-                <img src="images/digital.jpg" width="40%" alt="Woman hands at Computer - Photograph and free copyright by Unsplash"><br />
-            <div class="contact">
+        <h3><b>Contact Us</b></h3>
+                <div class="wrapper"></div>    
+                <div class="contact">
+                <img src="images/digital.jpg" width="40%" alt="Woman hands at Computer - Photograph and free copyright by Unsplash">
             <form
                 action="https://formspree.io/f/xdorolow"
                 method="POST" class="validate">
@@ -39,12 +39,11 @@
             <input id="email" class="form-input error" name="_replyto" required="" aria-describedby="error-for-email">
             <div id="error-for-email" class="error-message" style="display:block; visibility: visible;">Please fill out this field</div>
             <label for="message">Comments and Suggestions</label>
-            <textarea id="message" class="form-input error" name="message" rows="4" required="" aria-describedby="error-for-message" minlength="10" maxlength="100"></textarea>
+            <textarea id="message" class="form-input error" name="message" rows="4" required="" aria-describedby="error-for-message" minlength="10" maxlength="150"></textarea>
             <div id="error-for-message" class="error-message" style="display:block; visibility: visible;">Please fill out this field</div>
             <input type="submit" class="button" value="Submit">
         </form>
-        </div></div></main>
-
-    <div class="footer"><p>Copyright 2023. All rights reserved.</p></div>
-    <script source="script.js"></script>
-</body></html>
+        </div></body>
+    <div class="footer"><p>Copyright 2023. All rights reserved.</p>
+    <script source="script.js"></script></div>
+</html>
