@@ -129,7 +129,7 @@ ul li:hover ul.dropdown {
 }
 .welcome {
     grid-column: 1 / 3;
-    padding-top: 0%;
+    padding-top: none;
     padding-right: 2%;
     margin-right: auto;
 }
