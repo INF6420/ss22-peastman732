@@ -69,7 +69,7 @@ ul li {
 }
 ul li a {
     display: block;
-    padding: 20px 25px;
+    padding: 20px 20px;
     color: #FFCC33;
     text-decoration: none;
     text-align: center;
@@ -85,6 +85,7 @@ ul li ul.dropdown {
     z-index: 999;
     display: none;
 }
+
 ul li a:hover {
     background:#0C5449;
 }
@@ -126,7 +127,7 @@ ul li:hover ul.dropdown {
     min-height: 2em;
   }
   input, textarea {
-    background-color: #0C5449;
+    background-color: #ffffff;
     border: 1px solid #0a0a23;
     color: #ffffff;
   }
