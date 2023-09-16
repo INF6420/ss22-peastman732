@@ -12,7 +12,8 @@ body {
       font-size: 30px;
       text-align: auto;
       font-weight: 30%;
-      margin-left: 20%;
+      margin-left: 0%;
+      max-width: 10%;
   }
 h1 {
     margin: 1em auto;
@@ -71,13 +72,17 @@ ul li {
 ul li a {
     display: block;
     padding: 20px 20px;
+    margin-top: 0px;
     color: #FFCC33;
     text-decoration: none;
     text-align: center;
     font-size: 15px;
+
 }
 ul li ul.dropdown li {
     display:block;
+    text-align: left;
+    
 }
 ul li ul.dropdown {
     width: 100%;
@@ -87,11 +92,10 @@ ul li ul.dropdown {
     display: none;
 }
 
-ul li a:hover {
-    background:#0C5449;
-}
 ul li:hover ul.dropdown {
     display: block;
+    padding-left: 2%;
+    padding-right: 0%;
 }
 
 ****dropdown nav ends here***
