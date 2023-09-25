@@ -1,497 +1,569 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>WSU Student Diversity Survey</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <nav>
-      <ul>
-          <li><a href="exit.html">EXIT</a></li>
-          <li><a href="home.html">HOME</a></li>
-          <li><a href="diversity.html">RESET FORM</a></li>
-              </ul>
-      </nav>
-        <div><img src="images/WSU_SIS_LOGO.jpg" alt="Wayne State University logo" height="80" width="400"></div> 
-    <h1>Student Diversity Survey</h1>
-    <h2>Please submit your selections before exiting</h2>
-    <form action="https://formspree.io/f/xdorolow" method="POST" class="validate">
-      <fieldset>
-        <label for="status">1. Please select your class status in the School of Information Science (SIS) program:
-          <select id="status" name="status">
-            <option value="">(select one)</option>
-            <option value="1">First term in SIS program</option>
-            <option value="2">Second term in SIS program</option>
-            <option value="3">Completed one year in SIS program</option>
-            <option value="4">Finishing my second year</option>
-            <option value="5">Completing my final term</option>
-          </select></label> 
-<br />
-        <label for="year">2. Please select year you started in the (SIS) program:
-            <select id="year" name="year">
-              <option value="">(select one)</option>
-              <option value="1">2024</option>
-              <option value="2">2023</option>
-              <option value="3">2022</option>
-              <option value="4">2021</option>
-              <option value="5">2020</option>
-              <option value="5">Before 2020</option>
-            </select></label> 
-<br />
-        <label for="city">3. Enter the City where you currently reside: <input id="city" name="city" type="text" placeholder="fill in your City where you currently reside"/></label>
-<br />
-        <label for="state">4. Select the US state, district, or territory where you currently reside <em>(if applicable):</em>
-          <select id="state" name="state">
-            <option value="">(select one)</option>
-            <option value="100">I currently do not reside in the US</option>
-            <option value="101">I prefer not to answer</option>
-            <option value="1">Alabama</option>
-            <option value="2">Alaska</option>
-            <option value="3">American Samoa</option>
-            <option value="4">Arizona</option>
-            <option value="5">Arkansas</option>
-            <option value="6">California</option>
-            <option value="7">Colorado</option>
-            <option value="8">Connecticut</option>
-            <option value="9">Delaware</option>
-            <option value="10">District of Columbia</option>
-            <option value="11">Florida</option>
-            <option value="12">Georgia</option>
-            <option value="13">Guam</option>
-            <option value="14">Hawaii</option>
-            <option value="15">Idaho</option>
-            <option value="16">Illinois</option>
-            <option value="17">Indiana</option>
-            <option value="18">Iowa</option>
-            <option value="19">Kansas</option>
-            <option value="20">Kentucky</option>
-            <option value="21">Lousianna</option>
-            <option value="22">Maine</option>
-            <option value="23">Maryland</option>
-            <option value="24">Massachusetts</option>
-            <option value="25">Michigan</option>
-            <option value="26">Minnesota</option>
-            <option value="27">Mississippi</option>
-            <option value="28">Missouri</option>
-            <option value="29">Montana</option>
-            <option value="30">Nebraska</option>
-            <option value="31">Nevada</option>
-            <option value="32">New Hampshire</option>
-            <option value="33">New Jersey</option>
-            <option value="34">New Mexico</option>
-            <option value="35">New York</option>
-            <option value="36">North Carolina</option>
-            <option value="37">North Dakota</option>
-            <option value="38">Northern Mariana Islands</option>
-            <option value="39">Ohio</option>
-            <option value="40">Oklahoma</option>
-            <option value="41">Oregon</option>
-            <option value="42">Pennsylvania</option>
-            <option value="43">Puerto Rico</option>
-            <option value="44">Rhode Island</option>
-            <option value="45">South Carolina</option>
-            <option value="46">South Dakota</option>
-            <option value="47">Texas</option>
-            <option value="38">United States Virgin Islands</option>
-            <option value="49">Utah</option>
-            <option value="50">Vermont</option>
-            <option value="51">Virginia</option>
-            <option value="52">Washington</option>
-            <option value="53">West Virginia</option>
-            <option value="54">Wisconsin</option>
-            <option value="55">Wyoming</option>
-          </select></label>  
-<br />
-<br />
-        <label for="country">5. In what Country or Nation do you currently reside? <input id="country" name="country" type="text" placeholder="fill in your Country or Nation where you currently reside"/></label>
-<br />
-          <label for="military">6. Have you ever served in the US Armed Forces, Military Reserves, or National Guard?
-            <select id="military" name="military">
-              <option value="">(select one)</option>
-              <option value="1">I am currently serving</option>
-              <option value="2">I am no longer serving</option>
-              <option value="3">I have never served</option>
-            </select></label> 
-        </fieldset>
-        <fieldset>
-        <label for="age">7. What is your current age category?
-            <select id="age" name="age">
-              <option value="">(select one)</option>
-              <option value="1">25 and under</option>
-              <option value="2">26-35</option>
-              <option value="3">36-45</option>
-              <option value="4">46-59</option>
-              <option value="5">60+</option>
-            </select></label> 
-<br />
-          <label for="gender">8. Please select the option that <b><em>best</em></b> conceptualizes your gender identity:
-            <select id="gender" name="gender">
-              <option value="">(select one)</option>
-              <option value="1">Cisgender</option>
-              <option value="2">Female</option>
-              <option value="3">Gender-fluid</option>
-              <option value="4">Gender non-conforming</option>
-              <option value="5">Genderqueer</option>
-              <option value="6">Male</option>
-              <option value="7">Transgender</option>
-              <option value="8">Two-spirit</option>
-              <option value="9">Prefer not to respond</option>
-              <option value="10">Preferred response not listed</option>
-            </select></label> 
-<br />
-          <label for="pronoun">9. What is your preferred pronoun:
-              <select id="pronoun" name="pronoun">
-                <option value="">(select one)</option>
-                <option value="1">he/him</option>
-                <option value="2">she/her</option>
-                <option value="3">they/them</option>
-                <option value="4">None of the above</option>
-                <option value="5">Prefer not to respond</option>
-              </select></label> 
-<br />
-          <label for="ethnicity">10. Please select the racial or ethnic group(s) with which you <b><em>most</em></b> identify:</label>
-          <label for="African_Black"><input id="African_Black" type="checkbox" name="ethnicity" value="AAB" class="inline" /> African/Black American</label>
-          <label for="AIAN"><input id="AIAN" type="checkbox" name="ethnicity" value="AIAN" class="inline" /> American/Alaskan Native</label>
-          <label for="Asian"><input id="Asian" type="checkbox" name="ethnicity" value="Asian" class="inline" /> Asian American/Asian</label>
-          <label for="Latinx"><input id="Latinx" type="checkbox" name="ethnicity" value="Latinx" class="inline" /> Hispanic/Latinx of any race</label>
-          <label for="Middle-Eastern"><input id="Middle-Eastern" type="checkbox" name="ethnicity" value="MEast" class="inline" /> Middle-Eastern/Northern African</label>
-          <label for="Race_unknown"><input id="Race_unknown" type="checkbox" name="ethnicity" value="Unknown" class="inline" /> Race and/or ethnicity unknown</label>
-          <label for="two_races"><input id="two_race" type="checkbox" name="ethnicity" value="2 races" class="inline" /> Two or more races</label>
-          <label for="non_resident"><input id="non_resident" type="checkbox" name="ethnicity" value="NonR" class="inline" /> US Non-resident</label>
-          <label for="White"><input id="White" type="checkbox" name="ethnicity" value="White" class="inline" /> White</label>
-          <label for="none_race"><input id="none_race" type="checkbox" name="ethnicity" value="None" class="inline" /> None of the above</label>
-          <label for="no_answer_race"><input id="no_answer_race" type="checkbox" name="ethnicity" value="No Answer" class="inline" /> Prefer not to answer</label>
-          <label for="fill-in_race"><input id="race_not_listed" type="text" name="ethnicity" placeholder="fill-in race or ethnicity here" class="inline" /> Preferred response not listed</label>
-        </fieldset>
-        <fieldset>        
-          <label for="generation">11. Please indicate your generation status:</label>
-          <label for="grandparents"><input id="grandpparents" type="radio" name="generation" value="1" class="inline" /> Both grandparents and both parents were born in the United States</label>
-          <label for="parents"><input id="parents" type="radio" name="generation" value="1" class="inline" /> Both parents were born in the United States</label>
-          <label for="one_parent"><input id="one_parent" type="radio" name="generation" value="1" class="inline" /> One parent was born in the United States</label>
-          <label for="no_parent"><input id="no_parent" type="radio" name="generation" value="1" class="inline" /> Neither parent was born in the United States</label>
-<br />
-          <label for="education">12. Which of the following <b><em>best</em></b> describes the educational experience of your parents/guardians?</label>
-          <label for="education_both"><input id="education_4yrboth" type="radio" name="education" value="1" class="inline" /> Both parents/guardians have a 4-year degree or beyond</label>
-          <label for="education_one"><input id="education_4yrone" type="radio" name="education" value="1" class="inline" /> One parent/guardian has a 4-year degree or beyond</label>
-          <label for="education_neither"><input id="education_2yrboth" type="radio" name="education" value="1" class="inline" /> Both parents/guardians have a 2-year degree</label>
-          <label for="education_neither"><input id="education_2yrone" type="radio" name="education" value="1" class="inline" /> One parent/guardian has a 2-year degree</label>
-          <label for="education_neither"><input id="education_neither" type="radio" name="education" value="1" class="inline" /> Neither parent/guardian attended college</label>
-<br />          
-          <label for="community">13. How would you describe the racial/ethnic composition of the community where you grew up?</label>
-          <label for="all_races"><input id="all_races" type="radio" name="community" value="1" class="inline" /> All or nearly all people of my race/ethnicity</label>
-          <label for="mostly_races"><input id="mostly_races" type="radio" name="community" value="1" class="inline" /> Mostly people of my race/ethnicity</label>
-          <label for="half_races"><input id="half_races" type="radio" name="community" value="1" class="inline" /> Half of the people were my race/ethnicity and half of the people were of other races/ethnicities</label>
-          <label for="mostly_other_races"><input id="mostly_other_races" type="radio" name="community" value="1" class="inline" /> Mostly people of other races/ethnicities</label>
-          <label for="all_other_races"><input id="all_other_races" type="radio" name="community" value="1" class="inline" /> All or nearly all people of other races/ethnicities</label>
-<br />
-          <label for="religion">14. With what religious background, if any, do you <b><em>most</em></b> identity?
-              <select id="religion" name="religion">
-                <option value="">(select one)</option>
-                <option value="1">Agnostic</option>
-                <option value="2">Atheist</option>
-                <option value="3">Bahá’í</option>
-                <option value="4">Baptist</option>
-                <option value="5">Buddhist</option>
-                <option value="6">Catholic</option>
-                <option value="7">Church of Christ</option>
-                <option value="8">Christian: Non-Demoninational</option>
-                <option value="9">Confucian</option>
-                <option value="10">Eastern Orthodox</option>
-                <option value="11">Episcopalian</option>
-                <option value="12">Hindu</option>
-                <option value="13">Jehovah's Witness</option>
-                <option value="14">Jewish: Other</option>
-                <option value="15">LDS (Mormon)</option>
-                <option value="16">Lutheran</option>
-                <option value="17">Methodist</option>
-                <option value="18">Muslim</option>
-                <option value="19">Pentecostal</option>
-                <option value="20">Presbyterian</option>
-                <option value="21">Protestant: Non-Denominational</option>
-                <option value="22">Quaker</option>
-                <option value="23">Seventh Day Adventist</option>
-                <option value="24">Taoist</option>
-                <option value="25">Unitarian/Universalist</option>
-                <option value="26">UCC/Congregational</option>
-                <option value="27">None</option>
-                <option value="28">Prefer not to answer</option>
-                <option value="29">Other not included on the list above</option>
-              </select></label> 
-            </fieldset>
-            <fieldset>
-          <label for="disability">15. Do you have a disability that requires ADA or other accommodations?</label>
-          <label for="yes_disability"><input id="yes_disability" type="radio" name="disability" class="inline" /> Yes, I have a disability</label>
-          <label for="no_disability"><input id="no_disability" type="radio" name="disability" class="inline" /> No, I do not have a disability</label>
-          <label for="no_answer_disability"><input id="no_answer_disability" type="radio" name="disability" class="inline" /> Prefer not to answer</label>
-<br />
-          <label for="disability">16. If yes, what type of disbility/disabilities do you have? <em>(check all that apply)</em></label>
-          <label for="TBI"><input id="TBI" type="checkbox" name="disability" class="inline" /> Aquired/Traumatic Brain Injury</label>
-          <label for="ADHD"><input id="ADHD" type="checkbox" name="disbility" class="inline" /> Attention Deficit/Hyperactivity Disorder</label>
-          <label for="Autism"><input id="Autism" type="checkbox" name="disability" class="inline" /> Asperger's/Autism Spectrum</label>
-          <label for="Blind"><input id="Blind" type="checkbox" name="disability" class="inline" /> Blind/Low Vision</label>
-          <label for="Deaf"><input id="Deaf" type="checkbox" name="disability" class="inline" /> Deaf/Hard of Hearing</label>
-          <label for="Cognitive"><input id="Cognitive" type="checkbox" name="disability" class="inline" /> Cognitive or Learning Disability</label>
-          <label for="Chronic"><input id="Chronic" type="checkbox" name="disability" class="inline" /> Chronic Illness/Medical Condition</label>
-          <label for="Psychological"><input id="Psychological" type="checkbox" name="disability" class="inline" /> Mental Health/Psychological Condition</label>
-          <label for="Mobility1"><input id="Mobility1" type="checkbox" name="disability" class="inline" /> Physical/Mobility Condition that affects walking</label>
-          <label for="Mobility2"><input id="Mobility2" type="checkbox" name="disability" class="inline" /> Physical/Mobility Condition that does not affect walking</label>
-          <label for="Speech"><input id="Speech" type="checkbox" name="disability" class="inline" /> Speech/Communication Condition</label>
-          <label for="no_response_disability"><input id="no_response_disability" type="checkbox" name="diversity" class="inline" /> Prefer not to answer</label>
-          <label for="race_not_disability"><input id="disability_not_listed" type="checkbox" name="disability" class="inline" /> Preferred response not listed</label>
-          <label for="text_fill_in_disability"><input id="text_fill_in_disability" type="text" name="ethnicity" class="inline" /> (Fill in preferred or additional response here)</label>
-          </fieldset>
-          <fieldset>
-          <label for="climate">17. How satisfied or dissatisfied are you with the overall campus climate/environment that you have experienced at the School of Information Science program at Wayne State University?</label>
-          <label for="v_dissatified"><input id="v_dissatified" type="radio" name="satisfied" class="inline" /> Very Dissatisfied</label>
-          <label for="dissatisfied"><input id="dissatisfied" type="radio" name="satisfied" class="inline" /> Dissatisfied</label>
-          <label for="Neither"><input id="neither" type="radio" name="satisfied" class="inline" /> Neither Satisfied nor Dissatisfied</label>
-          <label for="Satisfied"><input id="satisfied" type="radio" name="satisfied" class="inline" /> Satisfied</label>
-          <label for="v_satisfied"><input id="v_satisfied" type="radio" name="satisfied" class="inline" /> Very Satisfied</label>
-<br />            
-          <label for="discriminated against">18. In general, have you felt discriminated against within the School of Information Science program at Wayne State University?</label>
-          <label for="yes_discrimination"><input id="yes_discrimination" type="radio" name="discriminated against" class="inline" /> Yes</label>
-          <label for="no_discrimination"><input id="no_discrimination" type="radio" name="discriminated against" class="inline" /> No</label>
-          <label for="no_answer_discrimination"><input id="no_answer_discrimination" type="radio" name="discriminated against" class="inline" /> Prefer not to answer</label>
-          </fieldset>
-          <fieldset>
-<br />
-          <label for="events">19. How often have you experienced discriminatory events within the SIS program or with other students in the program<b><em> because of your:</em></b></label>
-            
-<br /><br />
-            <label for="events"><b>Ability or disability status:</b>
-              <select id="AB" name="events">
-              <option value="">(select one)</option>
-              <option value="1">Never</option>
-              <option value="2">1-2 times</option>
-              <option value="3">3 or more times</option>
-          </select></label> 
-<br />
-            <label for="events"><b>Age:</b>
-              <select id="AG" name="events">
-              <option value="">(select one)</option>
-              <option value="1">Never</option>
-              <option value="2">1-2 times</option>
-              <option value="3">3 or more times</option>
-          </select></label> 
-<br />
-            <label for="events"><b>Gender identity or gender expression:</b>
-              <select id="GE" name="events">
-              <option value="">(select one)</option>
-              <option value="1">Never</option>
-              <option value="2">1-2 times</option>
-              <option value="3">3 or more times</option>
-        </select></label> 
-<br />
-            <label for="events"><b>Height and/or weight:</b>
-              <select id="HW" name="events">
-              <option value="">(select one)</option>
-              <option value="1">Never</option>
-              <option value="2">1-2 times</option>
-              <option value="3">3 or more times</option>
-        </select></label> 
-<br />
-            <label for="events"><b>Marital status:</b>
-              <select id="MS" name="events">
-              <option value="">(select one)</option>
-              <option value="1">Never</option>
-              <option value="2">1-2 times</option>
-              <option value="3">3 or more times</option>
-          </select></label> 
-<br />
-            <label for="events"><b>National origin:</b>
-              <select id="NO" name="events">
-              <option value="">(select one)</option>
-              <option value="1">Never</option>
-              <option value="2">1-2 times</option>
-              <option value="3">3 or more times</option>
-            </select></label> 
-<br />
-            <label for="events"><b>Political views:</b>
-              <select id="PV" name="events">
-              <option value="">(select one)</option>
-              <option value="1">Never</option>
-              <option value="2">1-2 times</option>
-              <option value="3">3 or more times</option>
-            </select></label> 
-<br />
-            <label for="events"><b>Racial or ethnic identity:</b>
-              <select id="RE" name="events">
-              <option value="">(select one)</option>
-              <option value="1">Never</option>
-              <option value="2">1-2 times</option>
-              <option value="3">3 or more times</option>
-            </select></label> 
-            <br />
-            <label for="events"><b>Religion:</b>
-              <select id="REL" name="events">
-              <option value="">(select one)</option>
-              <option value="1">Never</option>
-              <option value="2">1-2 times</option>
-              <option value="3">3 or more times</option>
-            </select></label> 
-<br />
-            <label for="events"><b>Sex or sexual orientation:</b>
-              <select id="SO" name="events">
-              <option value="">(select one)</option>
-              <option value="1">Never</option>
-              <option value="2">1-2 times</option>
-              <option value="3">3 or more times</option>
-            </select></label> 
-<br />
-            <label for="events"><b>Social class:</b>
-              <select id="SC" name="events">
-              <option value="">(select one)</option>
-              <option value="1">Never</option>
-              <option value="2">1-2 times</option>
-              <option value="3">3 or more times</option>
-            </select></label> 
-<br />
-            <label for="events"><b>Veteran status:</b>
-              <select id="VS" name="events">
-              <option value="">(select one)</option>
-              <option value="1">Never</option>
-              <option value="2">1-2 times</option>
-              <option value="3">3 or more times</option>
-            </select></label>      
-<br /><br />
-            <label for="experience">20. Considering your experiences in the School of Information Sciences program, please indicate your level of agreement to each of the following statements:</label>      
-<br /><br />
-              <label for="experience"><b>I feel valued as an individual within the School of Information Sciences program:</b>
-                <select id="valued" name="experience">
-                <option value="">(select one)</option>
-                <option value="1">Strongly Disagree</option>
-                <option value="2">Disagree</option>
-                <option value="3">Neither agree or disagree</option>
-                <option value="3">Agree</option>
-                <option value="3">Strongly Agree</option>
-              </select></label> 
-<br />
-              <label for="experience"><b>I feel I belong at the School of Information Sciences:</b>
-                <select id="belong" name="experience">
-                <option value="">(select one)</option>
-                <option value="1">Strongly Disagree</option>
-                <option value="2">Disagree</option>
-                <option value="3">Neither agree or disagree</option>
-                <option value="3">Agree</option>
-                <option value="3">Strongly Agree</option>
-              </select></label> 
-<br />
-              <label for="experience"><b>School of Information Sciences program has a strong commitment to diversity, equity, and inclusion:</b>
-                <select id="commitment" name="experience">
-                <option value="">(select one)</option>
-                <option value="1">Strongly Disagree</option>
-                <option value="2">Disagree</option>
-                <option value="3">Neither agree or disagree</option>
-                <option value="3">Agree</option>
-                <option value="3">Strongly Agree</option>
-              </select></label> 
-<br />
-              <label for="experience"><b>I have considered leaving the School of Information Sciences program because I feel isolated or unwelcomed:</b>
-                <select id="unwelcomed" name="experience">
-                <option value="">(select one)</option>
-                <option value="1">Strongly Disagree</option>
-                <option value="2">Disagree</option>
-                <option value="3">Neither agree or disagree</option>
-                <option value="3">Agree</option>
-                <option value="3">Strongly Agree</option>
-              </select></label> 
-<br />
-              <label for="experience"><b>I am treated with respect in the School of Information Sciences program:</b>
-                <select id="respect" name="experience">
-                <option value="">(select one)</option>
-                <option value="1">Strongly Disagree</option>
-                <option value="2">Disagree</option>
-                <option value="3">Neither agree or disagree</option>
-                <option value="3">Agree</option>
-                <option value="3">Strongly Agree</option>
-              </select></label> 
-<br />
-              <label for="experience"><b>I feel others don't value my opinions within the School of Information Sciences program:</b>
-                <select id="opinions" name="experience">
-                <option value="">(select one)</option>
-                <option value="1">Strongly Disagree</option>
-                <option value="2">Disagree</option>
-                <option value="3">Neither agree or disagree</option>
-                <option value="3">Agree</option>
-                <option value="3">Strongly Agree</option>
-              </select></label> 
-<br />
-              <label for="experience"><b>The School of Information Sciences program is where I am able to perform up to my full potential as a student:</b>
-                <select id="potential" name="experience">
-                <option value="">(select one)</option>
-                <option value="1">Strongly Disagree</option>
-                <option value="2">Disagree</option>
-                <option value="3">Neither agree or disagree</option>
-                <option value="3">Agree</option>
-                <option value="3">Strongly Agree</option>
-              </select></label> 
-<br />
-              <label for="experience"><b>I have academic opportunities within the School of Information Sciences program that are similar to those of my peers:</b>
-                <select id="opportunities" name="experience">
-                <option value="">(select one)</option>
-                <option value="1">Strongly Disagree</option>
-                <option value="2">Disagree</option>
-                <option value="3">Neither agree or disagree</option>
-                <option value="3">Agree</option>
-                <option value="3">Strongly Agree</option>
-              </select></label> 
-<br />
-              <label for="experience"><b>I have found one or more communities or groups where I feel I belong within the School of Information Sciences program:</b>
-                <select id="communities" name="experience">
-                <option value="">(select one)</option>
-                <option value="1">Strongly Disagree</option>
-                <option value="2">Disagree</option>
-                <option value="3">Neither agree or disagree</option>
-                <option value="3">Agree</option>
-                <option value="3">Strongly Agree</option>
-              </select></label> 
-<br />
-              <label for="experience"><b>The School of Information Sciences program provides sufficient programs and resources to foster the success of a diverse student:</b>
-                <select id="resources" name="experience">
-                <option value="">(select one)</option>
-                <option value="1">Strongly Disagree</option>
-                <option value="2">Disagree</option>
-                <option value="3">Neither agree or disagree</option>
-                <option value="3">Agree</option>
-                <option value="3">Strongly Agree</option>
-              </select></label> 
-<br />
-              <label for="experience"><b>I have to work harder than others to be valued equally in the School of Information Sciences program:</b>
-                <select id="equally" name="experience">
-                <option value="">(select one)</option>
-                <option value="1">Strongly Disagree</option>
-                <option value="2">Disagree</option>
-                <option value="3">Neither agree or disagree</option>
-                <option value="3">Agree</option>
-                <option value="3">Strongly Agree</option>
-              </select></label> 
-<br />
-              <label for="experience"><b>My experience within the School of Information Sciences program has had a positive influence on my academic growth:</b>
-                <select id="influence" name="experience">
-                <option value="">(select one)</option>
-                <option value="1">Strongly Disagree</option>
-                <option value="2">Disagree</option>
-                <option value="3">Neither agree or disagree</option>
-                <option value="3">Agree</option>
-                <option value="3">Strongly Agree</option>
-              </select></label> 
-          </fieldset>
-          <fieldset>
-            <label for="UST">21. Please describe any discriminatory events that you have experienced within the School of Information Sciences program at Wayne State University:
-              <textarea id="UST_q21" name="ust" rows="10" cols="30" placeholder="Please enter your text here (200 word limit)"></textarea>
-            </label>
-<br />
-<br />
-            <label for="UST">22. Please describe any challenges you have experienced within the School of Information Sciences program at Wayne State University:
-              <textarea id="UST_q22" name="ust" rows="10" cols="30" placeholder="Please enter your text here (200 word limit)"></textarea>
-            </label>
-<br />
-<br />
-            <label for="UST">23. Please share any positive experience(s) you have had within the School of Information Sciences program at Wayne State University:
-            <textarea id="UST_q23" name="ust" rows="10" cols="30" placeholder="Please enter your text here (200 word limit)"></textarea>
-            </label>
-          <input type="submit" class="submit" value="Submit" />
-          </fieldset></form>        
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>WSU Student Diversity Survey</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="exit.html">EXIT</a></li>
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="diversity.html">RESET FORM</a></li>
+    </ul>
+  </nav>
+  <div><img src="images/WSU_SIS_LOGO.jpg" alt="Wayne State University logo" height="80" width="400"></div>
+  <h1>Student Diversity Survey</h1>
+  <h2>Please submit your selections before exiting</h2>
+  <form action="https://formspree.io/f/xdorolow" method="POST" class="validate">
+    <fieldset>
+      <label for="status">1. Please select your class status in the School of Information Science (SIS) program:
+        <select id="status" name="status">
+          <option value="">(select one)</option>
+          <option value="1">First term in SIS program</option>
+          <option value="2">Second term in SIS program</option>
+          <option value="3">Completed one year in SIS program</option>
+          <option value="4">Finishing my second year</option>
+          <option value="5">Completing my final term</option>
+        </select></label>
+      <br />
+      <label for="year">2. Please select year you started in the (SIS) program:
+        <select id="year" name="year">
+          <option value="">(select one)</option>
+          <option value="1">2024</option>
+          <option value="2">2023</option>
+          <option value="3">2022</option>
+          <option value="4">2021</option>
+          <option value="5">2020</option>
+          <option value="5">Before 2020</option>
+        </select></label>
+      <br />
+      <label for="city">3. Enter the City where you currently reside: <input id="city" name="city" type="text"
+          placeholder="fill in your City where you currently reside" /></label>
+      <br />
+      <label for="state">4. Select the US state, district, or territory where you currently reside <em>(if
+          applicable):</em>
+        <select id="state" name="state">
+          <option value="">(select one)</option>
+          <option value="100">I currently do not reside in the US</option>
+          <option value="101">I prefer not to answer</option>
+          <option value="1">Alabama</option>
+          <option value="2">Alaska</option>
+          <option value="3">American Samoa</option>
+          <option value="4">Arizona</option>
+          <option value="5">Arkansas</option>
+          <option value="6">California</option>
+          <option value="7">Colorado</option>
+          <option value="8">Connecticut</option>
+          <option value="9">Delaware</option>
+          <option value="10">District of Columbia</option>
+          <option value="11">Florida</option>
+          <option value="12">Georgia</option>
+          <option value="13">Guam</option>
+          <option value="14">Hawaii</option>
+          <option value="15">Idaho</option>
+          <option value="16">Illinois</option>
+          <option value="17">Indiana</option>
+          <option value="18">Iowa</option>
+          <option value="19">Kansas</option>
+          <option value="20">Kentucky</option>
+          <option value="21">Lousianna</option>
+          <option value="22">Maine</option>
+          <option value="23">Maryland</option>
+          <option value="24">Massachusetts</option>
+          <option value="25">Michigan</option>
+          <option value="26">Minnesota</option>
+          <option value="27">Mississippi</option>
+          <option value="28">Missouri</option>
+          <option value="29">Montana</option>
+          <option value="30">Nebraska</option>
+          <option value="31">Nevada</option>
+          <option value="32">New Hampshire</option>
+          <option value="33">New Jersey</option>
+          <option value="34">New Mexico</option>
+          <option value="35">New York</option>
+          <option value="36">North Carolina</option>
+          <option value="37">North Dakota</option>
+          <option value="38">Northern Mariana Islands</option>
+          <option value="39">Ohio</option>
+          <option value="40">Oklahoma</option>
+          <option value="41">Oregon</option>
+          <option value="42">Pennsylvania</option>
+          <option value="43">Puerto Rico</option>
+          <option value="44">Rhode Island</option>
+          <option value="45">South Carolina</option>
+          <option value="46">South Dakota</option>
+          <option value="47">Texas</option>
+          <option value="38">United States Virgin Islands</option>
+          <option value="49">Utah</option>
+          <option value="50">Vermont</option>
+          <option value="51">Virginia</option>
+          <option value="52">Washington</option>
+          <option value="53">West Virginia</option>
+          <option value="54">Wisconsin</option>
+          <option value="55">Wyoming</option>
+        </select></label>
+      <br />
+      <br />
+      <label for="country">5. In what Country or Nation do you currently reside? <input id="country" name="country"
+          type="text" placeholder="fill in your Country or Nation where you currently reside" /></label>
+      <br />
+      <label for="military">6. Have you ever served in the US Armed Forces, Military Reserves, or National Guard?
+        <select id="military" name="military">
+          <option value="">(select one)</option>
+          <option value="1">I am currently serving</option>
+          <option value="2">I am no longer serving</option>
+          <option value="3">I have never served</option>
+        </select></label>
+    </fieldset>
+    <fieldset>
+      <label for="age">7. What is your current age category?
+        <select id="age" name="age">
+          <option value="">(select one)</option>
+          <option value="1">25 and under</option>
+          <option value="2">26-35</option>
+          <option value="3">36-45</option>
+          <option value="4">46-59</option>
+          <option value="5">60+</option>
+        </select></label>
+      <br />
+      <label for="gender">8. Please select the option that <b><em>best</em></b> conceptualizes your gender identity:
+        <select id="gender" name="gender">
+          <option value="">(select one)</option>
+          <option value="1">Cisgender</option>
+          <option value="2">Female</option>
+          <option value="3">Gender-fluid</option>
+          <option value="4">Gender non-conforming</option>
+          <option value="5">Genderqueer</option>
+          <option value="6">Male</option>
+          <option value="7">Transgender</option>
+          <option value="8">Two-spirit</option>
+          <option value="9">Prefer not to respond</option>
+          <option value="10">Preferred response not listed</option>
+        </select></label>
+      <br />
+      <label for="pronoun">9. What is your preferred pronoun:
+        <select id="pronoun" name="pronoun">
+          <option value="">(select one)</option>
+          <option value="1">he/him</option>
+          <option value="2">she/her</option>
+          <option value="3">they/them</option>
+          <option value="4">None of the above</option>
+          <option value="5">Prefer not to respond</option>
+        </select></label>
+      <br />
+      <label for="ethnicity">10. Please select the racial or ethnic group(s) with which you <b><em>most</em></b>
+        identify:</label>
+      <label for="African_Black"><input id="African_Black" type="checkbox" name="ethnicity" value="AAB"
+          class="inline" /> African/Black American</label>
+      <label for="AIAN"><input id="AIAN" type="checkbox" name="ethnicity" value="AIAN" class="inline" />
+        American/Alaskan Native</label>
+      <label for="Asian"><input id="Asian" type="checkbox" name="ethnicity" value="Asian" class="inline" /> Asian
+        American/Asian</label>
+      <label for="Latinx"><input id="Latinx" type="checkbox" name="ethnicity" value="Latinx" class="inline" />
+        Hispanic/Latinx of any race</label>
+      <label for="Middle-Eastern"><input id="Middle-Eastern" type="checkbox" name="ethnicity" value="MEast"
+          class="inline" /> Middle-Eastern/Northern African</label>
+      <label for="Race_unknown"><input id="Race_unknown" type="checkbox" name="ethnicity" value="Unknown"
+          class="inline" /> Race and/or ethnicity unknown</label>
+      <label for="two_races"><input id="two_race" type="checkbox" name="ethnicity" value="2 races" class="inline" /> Two
+        or more races</label>
+      <label for="non_resident"><input id="non_resident" type="checkbox" name="ethnicity" value="NonR" class="inline" />
+        US Non-resident</label>
+      <label for="White"><input id="White" type="checkbox" name="ethnicity" value="White" class="inline" />
+        White</label>
+      <label for="none_race"><input id="none_race" type="checkbox" name="ethnicity" value="None" class="inline" /> None
+        of the above</label>
+      <label for="no_answer_race"><input id="no_answer_race" type="checkbox" name="ethnicity" value="No Answer"
+          class="inline" /> Prefer not to answer</label>
+      <label for="fill-in_race"><input id="race_not_listed" type="text" name="ethnicity"
+          placeholder="fill-in race or ethnicity here" class="inline" /> Preferred response not listed</label>
+    </fieldset>
+    <fieldset>
+      <label for="generation">11. Please indicate your generation status:</label>
+      <label for="grandparents"><input id="grandpparents" type="radio" name="generation" value="1" class="inline" />
+        Both grandparents and both parents were born in the United States</label>
+      <label for="parents"><input id="parents" type="radio" name="generation" value="1" class="inline" /> Both parents
+        were born in the United States</label>
+      <label for="one_parent"><input id="one_parent" type="radio" name="generation" value="1" class="inline" /> One
+        parent was born in the United States</label>
+      <label for="no_parent"><input id="no_parent" type="radio" name="generation" value="1" class="inline" /> Neither
+        parent was born in the United States</label>
+      <br />
+      <label for="education">12. Which of the following <b><em>best</em></b> describes the educational experience of
+        your parents/guardians?</label>
+      <label for="education_both"><input id="education_4yrboth" type="radio" name="education" value="1"
+          class="inline" /> Both parents/guardians have a 4-year degree or beyond</label>
+      <label for="education_one"><input id="education_4yrone" type="radio" name="education" value="1" class="inline" />
+        One parent/guardian has a 4-year degree or beyond</label>
+      <label for="education_neither"><input id="education_2yrboth" type="radio" name="education" value="1"
+          class="inline" /> Both parents/guardians have a 2-year degree</label>
+      <label for="education_neither"><input id="education_2yrone" type="radio" name="education" value="1"
+          class="inline" /> One parent/guardian has a 2-year degree</label>
+      <label for="education_neither"><input id="education_neither" type="radio" name="education" value="1"
+          class="inline" /> Neither parent/guardian attended college</label>
+      <br />
+      <label for="community">13. How would you describe the racial/ethnic composition of the community where you grew
+        up?</label>
+      <label for="all_races"><input id="all_races" type="radio" name="community" value="1" class="inline" /> All or
+        nearly all people of my race/ethnicity</label>
+      <label for="mostly_races"><input id="mostly_races" type="radio" name="community" value="1" class="inline" />
+        Mostly people of my race/ethnicity</label>
+      <label for="half_races"><input id="half_races" type="radio" name="community" value="1" class="inline" /> Half of
+        the people were my race/ethnicity and half of the people were of other races/ethnicities</label>
+      <label for="mostly_other_races"><input id="mostly_other_races" type="radio" name="community" value="1"
+          class="inline" /> Mostly people of other races/ethnicities</label>
+      <label for="all_other_races"><input id="all_other_races" type="radio" name="community" value="1" class="inline" />
+        All or nearly all people of other races/ethnicities</label>
+      <br />
+      <label for="religion">14. With what religious background, if any, do you <b><em>most</em></b> identity?
+        <select id="religion" name="religion">
+          <option value="">(select one)</option>
+          <option value="1">Agnostic</option>
+          <option value="2">Atheist</option>
+          <option value="3">Bahá’í</option>
+          <option value="4">Baptist</option>
+          <option value="5">Buddhist</option>
+          <option value="6">Catholic</option>
+          <option value="7">Church of Christ</option>
+          <option value="8">Christian: Non-Demoninational</option>
+          <option value="9">Confucian</option>
+          <option value="10">Eastern Orthodox</option>
+          <option value="11">Episcopalian</option>
+          <option value="12">Hindu</option>
+          <option value="13">Jehovah's Witness</option>
+          <option value="14">Jewish: Other</option>
+          <option value="15">LDS (Mormon)</option>
+          <option value="16">Lutheran</option>
+          <option value="17">Methodist</option>
+          <option value="18">Muslim</option>
+          <option value="19">Pentecostal</option>
+          <option value="20">Presbyterian</option>
+          <option value="21">Protestant: Non-Denominational</option>
+          <option value="22">Quaker</option>
+          <option value="23">Seventh Day Adventist</option>
+          <option value="24">Taoist</option>
+          <option value="25">Unitarian/Universalist</option>
+          <option value="26">UCC/Congregational</option>
+          <option value="27">None</option>
+          <option value="28">Prefer not to answer</option>
+          <option value="29">Other not included on the list above</option>
+        </select></label>
+    </fieldset>
+    <fieldset>
+      <label for="disability">15. Do you have a disability that requires ADA or other accommodations?</label>
+      <label for="yes_disability"><input id="yes_disability" type="radio" name="disability" class="inline" /> Yes, I
+        have a disability</label>
+      <label for="no_disability"><input id="no_disability" type="radio" name="disability" class="inline" /> No, I do not
+        have a disability</label>
+      <label for="no_answer_disability"><input id="no_answer_disability" type="radio" name="disability"
+          class="inline" /> Prefer not to answer</label>
+      <br />
+      <label for="disability">16. If yes, what type of disbility/disabilities do you have? <em>(check all that
+          apply)</em></label>
+      <label for="TBI"><input id="TBI" type="checkbox" name="disability" class="inline" /> Aquired/Traumatic Brain
+        Injury</label>
+      <label for="ADHD"><input id="ADHD" type="checkbox" name="disbility" class="inline" /> Attention
+        Deficit/Hyperactivity Disorder</label>
+      <label for="Autism"><input id="Autism" type="checkbox" name="disability" class="inline" /> Asperger's/Autism
+        Spectrum</label>
+      <label for="Blind"><input id="Blind" type="checkbox" name="disability" class="inline" /> Blind/Low Vision</label>
+      <label for="Deaf"><input id="Deaf" type="checkbox" name="disability" class="inline" /> Deaf/Hard of
+        Hearing</label>
+      <label for="Cognitive"><input id="Cognitive" type="checkbox" name="disability" class="inline" /> Cognitive or
+        Learning Disability</label>
+      <label for="Chronic"><input id="Chronic" type="checkbox" name="disability" class="inline" /> Chronic
+        Illness/Medical Condition</label>
+      <label for="Psychological"><input id="Psychological" type="checkbox" name="disability" class="inline" /> Mental
+        Health/Psychological Condition</label>
+      <label for="Mobility1"><input id="Mobility1" type="checkbox" name="disability" class="inline" /> Physical/Mobility
+        Condition that affects walking</label>
+      <label for="Mobility2"><input id="Mobility2" type="checkbox" name="disability" class="inline" /> Physical/Mobility
+        Condition that does not affect walking</label>
+      <label for="Speech"><input id="Speech" type="checkbox" name="disability" class="inline" /> Speech/Communication
+        Condition</label>
+      <label for="no_response_disability"><input id="no_response_disability" type="checkbox" name="diversity"
+          class="inline" /> Prefer not to answer</label>
+      <label for="race_not_disability"><input id="disability_not_listed" type="checkbox" name="disability"
+          class="inline" /> Preferred response not listed</label>
+      <label for="text_fill_in_disability"><input id="text_fill_in_disability" type="text" name="ethnicity"
+          class="inline" /> (Fill in preferred or additional response here)</label>
+    </fieldset>
+    <fieldset>
+      <label for="climate">17. How satisfied or dissatisfied are you with the overall campus climate/environment that
+        you have experienced at the School of Information Science program at Wayne State University?</label>
+      <label for="v_dissatified"><input id="v_dissatified" type="radio" name="satisfied" class="inline" /> Very
+        Dissatisfied</label>
+      <label for="dissatisfied"><input id="dissatisfied" type="radio" name="satisfied" class="inline" />
+        Dissatisfied</label>
+      <label for="Neither"><input id="neither" type="radio" name="satisfied" class="inline" /> Neither Satisfied nor
+        Dissatisfied</label>
+      <label for="Satisfied"><input id="satisfied" type="radio" name="satisfied" class="inline" /> Satisfied</label>
+      <label for="v_satisfied"><input id="v_satisfied" type="radio" name="satisfied" class="inline" /> Very
+        Satisfied</label>
+      <br />
+      <label for="discriminated against">18. In general, have you felt discriminated against within the School of
+        Information Science program at Wayne State University?</label>
+      <label for="yes_discrimination"><input id="yes_discrimination" type="radio" name="discriminated against"
+          class="inline" /> Yes</label>
+      <label for="no_discrimination"><input id="no_discrimination" type="radio" name="discriminated against"
+          class="inline" /> No</label>
+      <label for="no_answer_discrimination"><input id="no_answer_discrimination" type="radio"
+          name="discriminated against" class="inline" /> Prefer not to answer</label>
+    </fieldset>
+    <fieldset>
+      <br />
+      <label for="events">19. How often have you experienced discriminatory events within the SIS program or with other
+        students in the program<b><em> because of your:</em></b></label>
+
+      <br /><br />
+      <label for="events"><b>Ability or disability status:</b>
+        <select id="AB" name="events">
+          <option value="">(select one)</option>
+          <option value="1">Never</option>
+          <option value="2">1-2 times</option>
+          <option value="3">3 or more times</option>
+        </select></label>
+      <br />
+      <label for="events"><b>Age:</b>
+        <select id="AG" name="events">
+          <option value="">(select one)</option>
+          <option value="1">Never</option>
+          <option value="2">1-2 times</option>
+          <option value="3">3 or more times</option>
+        </select></label>
+      <br />
+      <label for="events"><b>Gender identity or gender expression:</b>
+        <select id="GE" name="events">
+          <option value="">(select one)</option>
+          <option value="1">Never</option>
+          <option value="2">1-2 times</option>
+          <option value="3">3 or more times</option>
+        </select></label>
+      <br />
+      <label for="events"><b>Height and/or weight:</b>
+        <select id="HW" name="events">
+          <option value="">(select one)</option>
+          <option value="1">Never</option>
+          <option value="2">1-2 times</option>
+          <option value="3">3 or more times</option>
+        </select></label>
+      <br />
+      <label for="events"><b>Marital status:</b>
+        <select id="MS" name="events">
+          <option value="">(select one)</option>
+          <option value="1">Never</option>
+          <option value="2">1-2 times</option>
+          <option value="3">3 or more times</option>
+        </select></label>
+      <br />
+      <label for="events"><b>National origin:</b>
+        <select id="NO" name="events">
+          <option value="">(select one)</option>
+          <option value="1">Never</option>
+          <option value="2">1-2 times</option>
+          <option value="3">3 or more times</option>
+        </select></label>
+      <br />
+      <label for="events"><b>Political views:</b>
+        <select id="PV" name="events">
+          <option value="">(select one)</option>
+          <option value="1">Never</option>
+          <option value="2">1-2 times</option>
+          <option value="3">3 or more times</option>
+        </select></label>
+      <br />
+      <label for="events"><b>Racial or ethnic identity:</b>
+        <select id="RE" name="events">
+          <option value="">(select one)</option>
+          <option value="1">Never</option>
+          <option value="2">1-2 times</option>
+          <option value="3">3 or more times</option>
+        </select></label>
+      <br />
+      <label for="events"><b>Religion:</b>
+        <select id="REL" name="events">
+          <option value="">(select one)</option>
+          <option value="1">Never</option>
+          <option value="2">1-2 times</option>
+          <option value="3">3 or more times</option>
+        </select></label>
+      <br />
+      <label for="events"><b>Sex or sexual orientation:</b>
+        <select id="SO" name="events">
+          <option value="">(select one)</option>
+          <option value="1">Never</option>
+          <option value="2">1-2 times</option>
+          <option value="3">3 or more times</option>
+        </select></label>
+      <br />
+      <label for="events"><b>Social class:</b>
+        <select id="SC" name="events">
+          <option value="">(select one)</option>
+          <option value="1">Never</option>
+          <option value="2">1-2 times</option>
+          <option value="3">3 or more times</option>
+        </select></label>
+      <br />
+      <label for="events"><b>Veteran status:</b>
+        <select id="VS" name="events">
+          <option value="">(select one)</option>
+          <option value="1">Never</option>
+          <option value="2">1-2 times</option>
+          <option value="3">3 or more times</option>
+        </select></label>
+      <br /><br />
+      <label for="experience">20. Considering your experiences in the School of Information Sciences program, please
+        indicate your level of agreement to each of the following statements:</label>
+      <br /><br />
+      <label for="experience"><b>I feel valued as an individual within the School of Information Sciences program:</b>
+        <select id="valued" name="experience">
+          <option value="">(select one)</option>
+          <option value="1">Strongly Disagree</option>
+          <option value="2">Disagree</option>
+          <option value="3">Neither agree or disagree</option>
+          <option value="3">Agree</option>
+          <option value="3">Strongly Agree</option>
+        </select></label>
+      <br />
+      <label for="experience"><b>I feel I belong at the School of Information Sciences:</b>
+        <select id="belong" name="experience">
+          <option value="">(select one)</option>
+          <option value="1">Strongly Disagree</option>
+          <option value="2">Disagree</option>
+          <option value="3">Neither agree or disagree</option>
+          <option value="3">Agree</option>
+          <option value="3">Strongly Agree</option>
+        </select></label>
+      <br />
+      <label for="experience"><b>School of Information Sciences program has a strong commitment to diversity, equity,
+          and inclusion:</b>
+        <select id="commitment" name="experience">
+          <option value="">(select one)</option>
+          <option value="1">Strongly Disagree</option>
+          <option value="2">Disagree</option>
+          <option value="3">Neither agree or disagree</option>
+          <option value="3">Agree</option>
+          <option value="3">Strongly Agree</option>
+        </select></label>
+      <br />
+      <label for="experience"><b>I have considered leaving the School of Information Sciences program because I feel
+          isolated or unwelcomed:</b>
+        <select id="unwelcomed" name="experience">
+          <option value="">(select one)</option>
+          <option value="1">Strongly Disagree</option>
+          <option value="2">Disagree</option>
+          <option value="3">Neither agree or disagree</option>
+          <option value="3">Agree</option>
+          <option value="3">Strongly Agree</option>
+        </select></label>
+      <br />
+      <label for="experience"><b>I am treated with respect in the School of Information Sciences program:</b>
+        <select id="respect" name="experience">
+          <option value="">(select one)</option>
+          <option value="1">Strongly Disagree</option>
+          <option value="2">Disagree</option>
+          <option value="3">Neither agree or disagree</option>
+          <option value="3">Agree</option>
+          <option value="3">Strongly Agree</option>
+        </select></label>
+      <br />
+      <label for="experience"><b>I feel others don't value my opinions within the School of Information Sciences
+          program:</b>
+        <select id="opinions" name="experience">
+          <option value="">(select one)</option>
+          <option value="1">Strongly Disagree</option>
+          <option value="2">Disagree</option>
+          <option value="3">Neither agree or disagree</option>
+          <option value="3">Agree</option>
+          <option value="3">Strongly Agree</option>
+        </select></label>
+      <br />
+      <label for="experience"><b>The School of Information Sciences program is where I am able to perform up to my full
+          potential as a student:</b>
+        <select id="potential" name="experience">
+          <option value="">(select one)</option>
+          <option value="1">Strongly Disagree</option>
+          <option value="2">Disagree</option>
+          <option value="3">Neither agree or disagree</option>
+          <option value="3">Agree</option>
+          <option value="3">Strongly Agree</option>
+        </select></label>
+      <br />
+      <label for="experience"><b>I have academic opportunities within the School of Information Sciences program that
+          are similar to those of my peers:</b>
+        <select id="opportunities" name="experience">
+          <option value="">(select one)</option>
+          <option value="1">Strongly Disagree</option>
+          <option value="2">Disagree</option>
+          <option value="3">Neither agree or disagree</option>
+          <option value="3">Agree</option>
+          <option value="3">Strongly Agree</option>
+        </select></label>
+      <br />
+      <label for="experience"><b>I have found one or more communities or groups where I feel I belong within the School
+          of Information Sciences program:</b>
+        <select id="communities" name="experience">
+          <option value="">(select one)</option>
+          <option value="1">Strongly Disagree</option>
+          <option value="2">Disagree</option>
+          <option value="3">Neither agree or disagree</option>
+          <option value="3">Agree</option>
+          <option value="3">Strongly Agree</option>
+        </select></label>
+      <br />
+      <label for="experience"><b>The School of Information Sciences program provides sufficient programs and resources
+          to foster the success of a diverse student:</b>
+        <select id="resources" name="experience">
+          <option value="">(select one)</option>
+          <option value="1">Strongly Disagree</option>
+          <option value="2">Disagree</option>
+          <option value="3">Neither agree or disagree</option>
+          <option value="3">Agree</option>
+          <option value="3">Strongly Agree</option>
+        </select></label>
+      <br />
+      <label for="experience"><b>I have to work harder than others to be valued equally in the School of Information
+          Sciences program:</b>
+        <select id="equally" name="experience">
+          <option value="">(select one)</option>
+          <option value="1">Strongly Disagree</option>
+          <option value="2">Disagree</option>
+          <option value="3">Neither agree or disagree</option>
+          <option value="3">Agree</option>
+          <option value="3">Strongly Agree</option>
+        </select></label>
+      <br />
+      <label for="experience"><b>My experience within the School of Information Sciences program has had a positive
+          influence on my academic growth:</b>
+        <select id="influence" name="experience">
+          <option value="">(select one)</option>
+          <option value="1">Strongly Disagree</option>
+          <option value="2">Disagree</option>
+          <option value="3">Neither agree or disagree</option>
+          <option value="3">Agree</option>
+          <option value="3">Strongly Agree</option>
+        </select></label>
+    </fieldset>
+    <fieldset>
+      <label for="UST">21. Please describe any discriminatory issues or challenges you have experienced within the
+        School of Information Sciences program at Wayne State University:
+        <textarea id="UST_q21" name="ust" rows="10" cols="30"
+          placeholder="Please enter your text here (200 word limit)"></textarea>
+      </label>
+      <br />
+      <br />
+      <label for="UST">22. Please share any positive experience(s) you have had in regards to any DEI incidents within
+        the School of Information Sciences program at Wayne State University:
+        <textarea id="UST_q22" name="ust" rows="10" cols="30"
+          placeholder="Please enter your text here (200 word limit)"></textarea>
+      </label>
+      <input type="submit" class="submit" value="Submit" />
+    </fieldset>
+  </form>
+</body>
+
 </html>
